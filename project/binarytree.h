@@ -17,3 +17,4 @@ node* createtree_from_pre_in(string , string);
 node* createtree_from_post_in(string , string);
 void postorder(node*);
 void preorder(node*);
+void print_t_dll(node *head);

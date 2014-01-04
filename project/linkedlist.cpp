@@ -1,12 +1,12 @@
 
 #include "linkedlist.h"
-using namespace std;
 
-void print(node* head)
+void print_t_ll(node* head)
 {
 	node* t = head;
 	while (t != NULL)
 	{
+
 		cout << t->v << " ";
 		t = t->r;
 	}

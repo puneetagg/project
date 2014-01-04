@@ -45,6 +45,9 @@
     <ClCompile Include="node_ancestor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="treetoDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binarytree.h">
