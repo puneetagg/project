@@ -12,15 +12,14 @@ void treetoDLL(node* root,node **prev)
 		return;
 	treetoDLL(root->l,prev);
 	
-	if (root->l !=NULL)
+	if (root->l != NULL)
 		root->l = *prev;
 
-	if ((*prev)!= NULL)
+	if ((*prev) != NULL)
 		(*prev)->r = root;
 	
 	*prev = root;
 	treetoDLL(root->r, prev);
-//	free(prev);
 
 }
 
@@ -29,7 +28,8 @@ void main()
 	node *root = createtree();
 	node* prev = NULL;
 	treetoDLL(root,&prev);
-
+	prev = NULL;
+	delete prev;
 	moveroottohead(&root);
 	print_t_dll(root);
 	getch();
