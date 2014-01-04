@@ -11,10 +11,13 @@ void treetoDLL(node* root,node **prev)
 	if (root == NULL)
 		return;
 	treetoDLL(root->l,prev);
+	
 	if (root->l != NULL)
 		root->l = *prev;
+
 	if ((*prev)!=NULL)
 		(*prev)->r = root;
+	
 	*prev = root;
 	treetoDLL(root->r, prev);
 //	free(prev);
