@@ -1,4 +1,3 @@
-
 #include "linkedlist.h"
 using namespace std;
 
@@ -9,5 +8,6 @@ void print(node* head)
 	{
 		cout << t->v << " ";
 		t = t->r;
+		
 	}
 }
