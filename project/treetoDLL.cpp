@@ -15,7 +15,7 @@ void treetoDLL(node* root,node **prev)
 	if (root->l !=NULL)
 		root->l = *prev;
 
-	if ((*prev)!=NULL)
+	if ((*prev)!= NULL)
 		(*prev)->r = root;
 	
 	*prev = root;
