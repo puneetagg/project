@@ -12,7 +12,7 @@ void treetoDLL(node* root,node **prev)
 		return;
 	treetoDLL(root->l,prev);
 	
-	if (root->l != NULL)
+	if (root->l !=NULL)
 		root->l = *prev;
 
 	if ((*prev)!=NULL)
