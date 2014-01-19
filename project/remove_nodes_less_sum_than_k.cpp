@@ -1,4 +1,4 @@
-#include"binarytree.h"
+w#include"binarytree.h"
 
 node* removenodes(node* root, int *sum, int k)
 {
@@ -7,7 +7,7 @@ node* removenodes(node* root, int *sum, int k)
 	int ls, rs;
 	ls = *sum + root->v;
 	rs = *sum + root->v;
-	root->l=removenodes(root->l, &ls, k);
+	root->l = removenodes(root->l, &ls, k);
 	root->r = removenodes(root->r, &rs, k);
 
 	*sum = (ls > rs) ? ls : rs;
