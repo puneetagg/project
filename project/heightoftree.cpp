@@ -9,7 +9,7 @@ int heightoftree(node *root)
 	q.push(root);
 	int count;
 	node* t = NULL;
-	int height=0;
+	int height = 0;
 	while (1)
 	{
 		count = q.size();
@@ -32,7 +32,7 @@ int heightoftree(node *root)
 void main()
 {
 	node *root = createtree();
-	int h=heightoftree(root);
+	int h = heightoftree(root);
 	cout << "Height of a tree: " << h;
 	getch();
 }

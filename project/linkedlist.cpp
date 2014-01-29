@@ -8,6 +8,6 @@ void print_t_ll(node* head)
 
 		cout << t->v << " ";
 		t = t->r;
-		
+
 	}
 }
