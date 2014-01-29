@@ -1,4 +1,4 @@
-w#include"binarytree.h"
+#include"binarytree.h"
 
 node* removenodes(node* root, int *sum, int k)
 {
