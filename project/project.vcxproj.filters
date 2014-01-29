@@ -21,9 +21,6 @@
     <ClCompile Include="treelongestpath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\binarytree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="deepestleftnode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -58,6 +55,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="tree_postorder_iter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
