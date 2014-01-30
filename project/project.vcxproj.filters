@@ -60,6 +60,9 @@
     <ClCompile Include="countsor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sum_of_nos_formed_from_root_to_leaves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binarytree.h">
